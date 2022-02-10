@@ -22,7 +22,7 @@ function Spiner() {
               images.map((image) => {
                 return (
                   <SwiperSlide key={image}>
-                    <img className="swiper-image" src={require('../../assets/images/' + image)}/>
+                    <img className="swiper-image" src={require('../../assets/images/' + image)} alt=""/>
                   </SwiperSlide>
                 )
               })

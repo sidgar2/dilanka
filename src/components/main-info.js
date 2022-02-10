@@ -45,7 +45,7 @@ function MainInfo() {
         <button className="button-close" onClick={closeModal}>
           <FontAwesomeIcon icon={faXmark} />
         </button>
-        <img className="plan-image" src={require('../assets/images/plan.jpg')}/>
+        <img className="plan-image" src={require('../assets/images/plan.jpg')} alt=""/>
       </Modal>
       <br/>
     </div>
