@@ -36,6 +36,7 @@
   font-size: 25px;
   z-index: 1;
   padding-bottom: 5px;
+  width: 100%;
 }
 
 .swiper-image {
@@ -119,7 +120,6 @@
 }
 
 .header-logo-text {
-  position: absolute;
   z-index: 1;
   left: 0;
   color: #fff;
